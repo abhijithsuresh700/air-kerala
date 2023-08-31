@@ -1,0 +1,44 @@
+.booking-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    gap:20px
+  }
+  
+  .booking-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .airline-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .booking-id {
+    color: #888;
+  }
+  
+  .booking-info {
+    font-size: 14px;
+  }
+  
+  .customer-name {
+    margin-top: 5px;
+  }
+  
+  .route {
+    margin-top: 5px;
+  }
+  
+  .bookingdate {
+    margin-top: 5px;
+    color: #888;
+  }

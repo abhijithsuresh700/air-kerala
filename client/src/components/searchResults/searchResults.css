@@ -1,0 +1,77 @@
+.searchItem {
+  border: 1px solid lightgray;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.siDesc {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 2;
+}
+
+.siIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.siFlightDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.siAdditionalDetails {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.siClass {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.siClassName, .siFlightName {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.siPrice, .siFlightType {
+  font-size: 12px;
+  color: #888;
+}
+
+.siButton {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bookButton {
+  padding: 8px 12px;
+  background-color: #68501d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.siFlightDetails {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
